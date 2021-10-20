@@ -17,7 +17,7 @@ pluginBundle {
 gradlePlugin {
     plugins {
         create("greetingsPlugin") {
-            id = "com.wttch.libs"
+            id = "gradle.plugin.wttch"
             displayName = "Wttch Library Gradle Plugin"
             description = "Wttch Library Gradle Plugin"
             implementationClass = "com.wttch.plugin.gradle.libs.WttchLibsPlugin"
